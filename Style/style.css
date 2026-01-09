@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* shared style */
+
+
+.logo{
+    width: 139px;
+    padding-left: 120px auto;
+}
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    align-items: center;
+    
+
+}
+
+/* menu style */
+
+header{
+    padding: 16px 120px;
+    padding-top: 16px;
+
+}
+nav{
+    width: 71%;
+    max-width: 1360px;
+    /* border: 1px solid black; */
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .menu a{
+    font-size: 16px;
+    font-weight:500;
+    color:#000000;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.btn{
+    background-color: #30B868;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12.5px 16px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+
+    
