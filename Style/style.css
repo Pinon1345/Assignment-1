@@ -156,7 +156,43 @@ nav div{
     display: flex;
     justify-content: space-around;
 }
-.about-info .info-card{
+.about-info .info-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+
+
+
+}
+.about-info .info-card p{
+    font-size: 16px;
+    color: #627382;
+    padding: 2px;
+    padding-bottom: 2px;
+}
+
+.avater{
+    width: 140px;
+    height: 140px;
+    background-color: #F95555;
+    border-radius: 50%;
+    padding: 131px 69.5px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 0 auto;
+}  
+.avater-image{
+    width: 60px;
+    height: 60px;
+    color: white;
+}  
+
+.info-card{
+    gap: 35px;
+    align-items: center;
+    max-width: 322px;
+    box-shadow: 0px 6px 50px 0px #0000001c;
     
 }
 
