@@ -265,6 +265,53 @@ nav div{
 .container-text .balanced-align{
     padding-left: 6px;
 }
+#final{
+    width: 0 auto;
+    height: 506px;
+    /* border: 2px solid rebeccapurple; */
+    background-color: #FFFFFF;
+    padding-top: 2px;
+}
+#final .final-container{
+    /* border: 2px solid black; */
+    width: 1360px;
+    height: 384px;
+    margin: 0 auto;
+    background-color: #F7F6F2;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px #62738215;
+}
+.final-container .container-elements{
+    text-align: center;
+    padding: 80px 40px 192px 40px;
+}
+.container-elements h2{
+    font-size: 40px;
+    color: #001931;
+    /* padding-top: 80px; */
+}
+.container-elements p{
+    font-size: 16px;
+    color: #627382;
+    padding-top: 16px;
+}
+.container-btn{
+    text-align: center;
+    padding-top: 24px;
+}
+.container-btn p{
+    padding-top: 16px;
+}
+.container-btn .btn{
+    width: 155px;
+    height: 53px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.container-btn p{
+    color: #627382;
+}
 
 
 
