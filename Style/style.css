@@ -51,6 +51,10 @@ nav .menu a{
     text-decoration: none;
 
 }
+nav .menu a:hover{
+
+    background: #62738245;
+}
 
 .btn{
     background-color: #30B868;
@@ -61,6 +65,9 @@ nav .menu a{
     font-weight: 600;
     cursor: pointer;
 
+}
+.btn:hover{
+    background: #30b8698a;
 }
 .nav-btn{
     padding-bottom: 24;
@@ -90,18 +97,22 @@ nav div{
 }
 
 .banner-btn{
-    width: 229px;
+    width: 269px;
     border-radius: 8px;
     border: none;
     text-align: center;
     background-color: white;
     color: #30B868;
-    padding: 8px 12px 8px 34px;
-    font-size: 16px;
+    padding: 8px 12px 8px 20px;
+    font-size: 18px;
     font-weight: 500;
     cursor: pointer;
     
 }
+.banner-btn:hover{
+    background: rgba(0, 255, 255, 0.218);
+}
+
 .banner-info .banner-content h1{
     color: #30B868;
 
@@ -303,7 +314,7 @@ nav div{
     padding-top: 16px;
 }
 .container-btn .btn{
-    width: 155px;
+    width: 180px;
     height: 53px;
     font-size: 15px;
     font-weight: 600;
@@ -311,6 +322,84 @@ nav div{
 }
 .container-btn p{
     color: #627382;
+}
+
+#footer{
+    background-color: #001931;
+    width: 0 auto;
+    height: 348px;
+    
+}
+#footer .footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-container .footer-logo{
+    padding-top: 120px;
+    padding-left: 120px;
+}
+.footer-container .container-element{
+    padding-top: 120px;
+    padding-right: 120px;
+}
+.container-element p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+
+}
+#footer .container-element{
+    text-align: center;
+}
+.footer-icon .social-media{
+    color:black
+    
+}
+
+.social-media .background-color-1{
+    display:inline-table;
+    width: 20px;
+    height: 20px;
+    gap: 15px;
+    background-color: white;
+    border-radius: 50%;
+    align-items: center;
+}
+.social-media .background-color-2{
+    display: inline-table;
+    width: 20px;
+    height: 20px;
+    gap: 15px;
+    background-color: white;
+    border-radius: 50%;
+    align-items: center;
+}
+.social-media .background-color-3{
+    display: inline-table;
+    width: 20px;
+    height: 20px;
+    gap: 15px;
+    background-color: white;
+    border-radius: 50%;
+    align-items: center;
+}
+
+#footer-line{
+    margin: 79.5px auto;
+    
+    align-items: center;
+    color:#4d5c6905;
+    width: 1300px;
+    height: 1px;
+}
+.copyright{
+    padding-top: 30px;
+    font-size: 16px;
+    color: #fafafa70;
+    text-align: center;
+
+
 }
 
 
